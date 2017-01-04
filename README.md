@@ -9,6 +9,6 @@ docker build -t jnvilo/alpine-mysql .
 
 ## Usage
 ```
-docker run -it --name mysql -p 3306:3306 -v $(pwd):/app -e DATABASE=admin -e USER=jnvilo -e MYSQL_PASSWORD=2s0301d8 -e MYSQL_ROOT_PASSWORD=password jnvilo/alpine-mysql
+docker run -it -p 3306:3306 -v $(pwd):/app -e DATABASE=admin -e USER=jnvilo -e MYSQL_PASSWORD=2s0301d8 -e MYSQL_ROOT_PASSWORD=password jnvilo/alpine-mysql
 ```
 
