@@ -1,4 +1,4 @@
-# alpine-mysql
+# jnvilo-mysql
 
 Although there are docker images out there for mysql, I prefer to use my own. This dockerfile builds a basic mysql setup. I keep it here to use
 as a template and update it with other additions as the project may require. 
